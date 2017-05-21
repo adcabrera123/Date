@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DateOverloaded.dir/main.cpp.o"
   "CMakeFiles/DateOverloaded.dir/Date.cpp.o"
+  "CMakeFiles/DateOverloaded.dir/functions.cpp.o"
   "DateOverloaded.pdb"
   "DateOverloaded"
 )

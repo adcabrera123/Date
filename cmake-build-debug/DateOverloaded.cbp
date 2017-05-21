@@ -90,6 +90,9 @@
 		<Unit filename="/home/andrew/Desktop/Templates/DateOverloaded/Date.h">
 			<Option target="DateOverloaded"/>
 		</Unit>
+		<Unit filename="/home/andrew/Desktop/Templates/DateOverloaded/functions.cpp">
+			<Option target="DateOverloaded"/>
+		</Unit>
 		<Unit filename="/home/andrew/Desktop/Templates/DateOverloaded/main.cpp">
 			<Option target="DateOverloaded"/>
 		</Unit>

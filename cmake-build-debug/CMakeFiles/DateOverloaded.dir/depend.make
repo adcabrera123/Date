@@ -4,6 +4,9 @@
 CMakeFiles/DateOverloaded.dir/Date.cpp.o: ../Date.cpp
 CMakeFiles/DateOverloaded.dir/Date.cpp.o: ../Date.h
 
+CMakeFiles/DateOverloaded.dir/functions.cpp.o: ../Date.h
+CMakeFiles/DateOverloaded.dir/functions.cpp.o: ../functions.cpp
+
 CMakeFiles/DateOverloaded.dir/main.cpp.o: ../Date.h
 CMakeFiles/DateOverloaded.dir/main.cpp.o: ../main.cpp
 

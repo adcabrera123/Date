@@ -150,6 +150,33 @@ Date.cpp.s:
 	$(MAKE) -f CMakeFiles/DateOverloaded.dir/build.make CMakeFiles/DateOverloaded.dir/Date.cpp.s
 .PHONY : Date.cpp.s
 
+functions.o: functions.cpp.o
+
+.PHONY : functions.o
+
+# target to build an object file
+functions.cpp.o:
+	$(MAKE) -f CMakeFiles/DateOverloaded.dir/build.make CMakeFiles/DateOverloaded.dir/functions.cpp.o
+.PHONY : functions.cpp.o
+
+functions.i: functions.cpp.i
+
+.PHONY : functions.i
+
+# target to preprocess a source file
+functions.cpp.i:
+	$(MAKE) -f CMakeFiles/DateOverloaded.dir/build.make CMakeFiles/DateOverloaded.dir/functions.cpp.i
+.PHONY : functions.cpp.i
+
+functions.s: functions.cpp.s
+
+.PHONY : functions.s
+
+# target to generate assembly for a file
+functions.cpp.s:
+	$(MAKE) -f CMakeFiles/DateOverloaded.dir/build.make CMakeFiles/DateOverloaded.dir/functions.cpp.s
+.PHONY : functions.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Date.o"
 	@echo "... Date.i"
 	@echo "... Date.s"
+	@echo "... functions.o"
+	@echo "... functions.i"
+	@echo "... functions.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

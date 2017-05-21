@@ -112,9 +112,11 @@ bool Date::operator>=(const Date &otherDate) const {
 }
 
 /**
- * 
+ * @brief Date::operator<
  * @param otherDate
  * @return
+ * returns true of the current object date is less than the Date
+ * taken in.
  */
 bool Date::operator<(const Date &otherDate) const {
     bool isLessThan = false;
@@ -134,6 +136,13 @@ bool Date::operator<(const Date &otherDate) const {
     return isLessThan;
 }
 
+/**
+ * @brief Date::operator<=
+ * @param otherDate
+ * @return
+ * returns true if the Date object has a date that is less than or equal to
+ * that of the Date object taken in.  It calls the
+ */
 bool Date::operator<=(const Date &otherDate) const {
     bool isLessThan = false;
 
@@ -145,6 +154,11 @@ bool Date::operator<=(const Date &otherDate) const {
     return isLessThan;
 }
 
+/**
+ * @brief Date::operator++
+ * @return
+ *
+ */
 Date Date::operator++() {
     if (monthType() == "31Days")
     {
@@ -177,7 +191,14 @@ Date Date::operator++() {
         std::cout << "increment error!";
 
 }
-
+/**
+ * @brief Date::operator++
+ * @param u
+ * @return
+ * overloads the postincrement operator.  adds one to the date adn returns the object.
+ * takes in an int variable to indicate that it is a postincrement operator.  This
+ * function calls the overloaded preincrement operator
+ */
 Date Date::operator++(int u) {
     Date date = *this;
 
@@ -186,6 +207,13 @@ Date Date::operator++(int u) {
     return date;
 }
 
+/**
+ * @brief Date::monthType
+ * @return
+ * returns a string representation of the type of month.  creates arrays to represent
+ * months with 31 days and months with 30 days.  if the month has 31 days, it returns
+ * "31Days", if it has 30 days, it returns "30Days", else it returns February
+ */
 std::string Date::monthType() {
     int monthWith31Days[] = {1, 3, 5, 7, 8, 10, 12};
     int monthWith30days[] = {4, 6, 9, 11};
@@ -214,34 +242,71 @@ std::string Date::monthType() {
     return monthType;
 }
 
+/**
+ * @brief Date::getDay
+ * @return
+ * returns day
+ */
 int Date::getDay() const {
     return day;
 }
 
+/**
+ * @brief Date::setDay
+ * @param day
+ * sets day
+ */
 void Date::setDay(int day) {
     Date::day = day;
 }
 
+/**
+ * @brief Date::getMonth
+ * @return
+ * returns month
+ */
 int Date::getMonth() const {
     return month;
 }
 
+/**
+ * @brief Date::setMonth
+ * @param month
+ * sets month
+ */
 void Date::setMonth(int month) {
     Date::month = month;
 }
 
+/**
+ * @brief Date::getYear
+ * @return
+ * returns year
+ */
 int Date::getYear() const {
     return year;
 }
 
+/**
+ * @brief Date""setYear
+ * @param year
+ * sets year
+ */
 void Date::setYear(int year) {
     Date::year = year;
 }
 
+/**
+ * @brief Date::print
+ * prints the date in month/day/year format
+ */
 void Date::print() const {
     std::cout << month << "/" << day << "/"  << year << std::endl;
 }
 
+/**
+ *
+ */
 Date::~Date() {
 
 }

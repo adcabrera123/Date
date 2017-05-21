@@ -3,5 +3,5 @@ project(DateOverloaded)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Date.cpp Date.h)
+set(SOURCE_FILES main.cpp Date.cpp Date.h functions.cpp)
 add_executable(DateOverloaded ${SOURCE_FILES})
