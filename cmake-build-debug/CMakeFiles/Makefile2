@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2017.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrew/Desktop/Templates/DateOverloaded
+CMAKE_SOURCE_DIR = /Users/andrewcabrera/Desktop/Date/Date
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrew/Desktop/Templates/DateOverloaded/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/andrewcabrera/Desktop/Date/Date/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/DateOverloaded.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/andrew/Desktop/Templates/DateOverloaded/cmake-build-deb
 CMakeFiles/DateOverloaded.dir/all:
 	$(MAKE) -f CMakeFiles/DateOverloaded.dir/build.make CMakeFiles/DateOverloaded.dir/depend
 	$(MAKE) -f CMakeFiles/DateOverloaded.dir/build.make CMakeFiles/DateOverloaded.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrew/Desktop/Templates/DateOverloaded/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target DateOverloaded"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andrewcabrera/Desktop/Date/Date/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target DateOverloaded"
 .PHONY : CMakeFiles/DateOverloaded.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/DateOverloaded.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DateOverloaded.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/Desktop/Templates/DateOverloaded/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andrewcabrera/Desktop/Date/Date/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DateOverloaded.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/Desktop/Templates/DateOverloaded/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andrewcabrera/Desktop/Date/Date/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/DateOverloaded.dir/rule
 
 # Convenience name for target.

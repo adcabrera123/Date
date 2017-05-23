@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andrew/Desktop/Templates/DateOverloaded/Date.cpp" "/home/andrew/Desktop/Templates/DateOverloaded/cmake-build-debug/CMakeFiles/DateOverloaded.dir/Date.cpp.o"
-  "/home/andrew/Desktop/Templates/DateOverloaded/functions.cpp" "/home/andrew/Desktop/Templates/DateOverloaded/cmake-build-debug/CMakeFiles/DateOverloaded.dir/functions.cpp.o"
-  "/home/andrew/Desktop/Templates/DateOverloaded/main.cpp" "/home/andrew/Desktop/Templates/DateOverloaded/cmake-build-debug/CMakeFiles/DateOverloaded.dir/main.cpp.o"
+  "/Users/andrewcabrera/Desktop/Date/Date/Date.cpp" "/Users/andrewcabrera/Desktop/Date/Date/cmake-build-debug/CMakeFiles/DateOverloaded.dir/Date.cpp.o"
+  "/Users/andrewcabrera/Desktop/Date/Date/functions.cpp" "/Users/andrewcabrera/Desktop/Date/Date/cmake-build-debug/CMakeFiles/DateOverloaded.dir/functions.cpp.o"
+  "/Users/andrewcabrera/Desktop/Date/Date/main.cpp" "/Users/andrewcabrera/Desktop/Date/Date/cmake-build-debug/CMakeFiles/DateOverloaded.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
